@@ -5,7 +5,7 @@ end
 def find_max_value(array)
 counter = 0
 max_value = 0
-while array.length do |element|
+while array.length.size do |element|
   if elemnet > max_value
     max_value = element
   end

@@ -6,13 +6,13 @@ def find_max_value(array)
 counter = 0
 max_value = 0
 element = 0
-while array.length.size do |element|
-  if element > max_value
-    max_value = element
+while array.length do 
+  if array[counter] > max_value
+    max_value = counter
   end
+  nil
 end
-max_value
-end
+
 
 def find_min_value(array)
 

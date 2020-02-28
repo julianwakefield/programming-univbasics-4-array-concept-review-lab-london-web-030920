@@ -5,9 +5,9 @@ end
 def find_max_value(array)
 counter = 0
 max_value = 0
-while array.length do |maximum_value|
-  if maximum_value > max_value
-    max_value = maximum_value
+while array.length do
+  if i > max_value
+    max_value = i
   end
 end
 max_value
